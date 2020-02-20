@@ -11,7 +11,8 @@
  * 
  * Name: Juergen Walter
  * Date: 200104
-
+ * MODIFIEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+ *
  * public domain
  */
 
