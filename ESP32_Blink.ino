@@ -16,12 +16,14 @@
  * public domain
  */
 
-int esp32LED = 1;                   //Blue LED on board at TX0 = Pin 1 
+int esp32LED = 1;      
+int esp32LED2 = 0;   //Blue LED on board at TX0 = Pin 1 
 
 // the setup function runs once when you power the board or press reset  
 
 void setup() {
-  pinMode(esp32LED, OUTPUT);        //Pin 1 Output 
+  pinMode(esp32LED, OUTPUT);
+  pinMode(esp32LED2, OUTPUT); 
 }
 
 void loop() {
