@@ -11,7 +11,7 @@
  * 
  * Name: Juergen Walter
  * Date: 200104
- * Modified by: Ritu
+ * Modified by: Ritu 20/2/2020
 
  * public domain
  */
@@ -32,5 +32,13 @@ void loop() {
   digitalWrite(esp32LED, HIGH);     // LED on
   delay(1000);                      // 1s wait - processor
   digitalWrite(esp32LED, LOW);      // LED off
-  delay(1000); // 1s wait - processor
+  delay(1000);
+    digitalWrite(esp32LED, HIGH);     // LED on
+  delay(5000);                      // 1s wait - processor
+  digitalWrite(esp32LED, LOW);      // LED off
+  delay(5000);  
+  digitalWrite(esp32LED, HIGH);     // LED on
+  delay(5000);                      // 1s wait - processor
+  digitalWrite(esp32LED, LOW);      // LED off
+  delay(5000);// 1s wait - processor
 }
